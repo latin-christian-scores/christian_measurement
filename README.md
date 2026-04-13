@@ -188,7 +188,7 @@ For most downstream work, the user might want to:
 - use `prob_*` as the primary released continuous measurements
 - use `label_*_youden` or `label_*_f1` only when a binary classification is required
 - consult `model_metrics_oof.csv` and `bert_metrics_oof.csv` for performance comparisons
-- consult `model_thresholds_deployment(2).csv` and `bert_run_config(3).json` for the exact thresholding rules used in the release
+- consult `model_thresholds_deployment.csv` and `bert_run_config.json` for the exact thresholding rules used in the release
 
 ## Citation
 
