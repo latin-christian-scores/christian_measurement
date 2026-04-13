@@ -178,11 +178,11 @@ The release distinguishes between two kinds of predictions:
 1. **Labeled texts**: released predictions are cross-fitted / out-of-fold, so each labeled document’s evaluation prediction comes from a model that was not trained on that document.
 2. **Unlabeled texts**: released predictions come from models fit on the full labeled set and then applied to the unlabeled corpus.
 
-This distinction is recorded in the `prediction_source` column and should be respected in downstream analysis.
+This distinction is recorded in the `prediction_source` column and should be kept in mind for downstream analysess.
 
 ## Suggested use
 
-For most downstream work:
+For most downstream work, the user might want to:
 
 - use `corpus_600ad_combined_predictions.csv` as the main data file
 - use `prob_*` as the primary released continuous measurements
