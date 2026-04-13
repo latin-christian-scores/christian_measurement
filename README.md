@@ -35,11 +35,11 @@ All the code and raw data required to reproduce the outputs here can be found at
 
 ## Corpus summary
 
-The release contains: 
+The release contains labels and scores for: 
 
 - 780 total corpus texts
 - 362 manually labeled texts
-- 418 unlabeled texts with predictions
+- 418 model labeled texts
 
 ## Main data file: `corpus_600ad_combined_predictions.csv`
 
